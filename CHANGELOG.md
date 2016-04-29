@@ -12,3 +12,4 @@ We follow [Keep a Changelog](http://keepachangelog.com/) format.
   * working gossip dissemination of messages
   * working membership modifications for adding new members to the node dict
 - Pytest unit (partial coverage) and integration tests (nearly full coverage)
+- travis.ci and coveralls

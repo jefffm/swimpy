@@ -1,0 +1,13 @@
+sudo: false
+language: python
+python:
+  - "2.7"
+# command to install dependencies
+install:
+  - "pip install coveralls"
+  - "pip install --upgrade pytest"
+  - "python setup.py develop"
+# command to run tests
+script: "python setup.py test"
+after_success:
+  - coveralls

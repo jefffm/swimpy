@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jefffm/swimpy.svg?branch=master)](https://travis-ci.org/jefffm/swimpy)
+
 
 
 SWIMPY - gossip-based membership and failure detection
